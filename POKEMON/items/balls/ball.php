@@ -1,6 +1,6 @@
 <?php
 
-    class Ball
+    class Ball implements Usable
     {
         public $name;
         public $level;
@@ -11,7 +11,7 @@
             $this->level = $level;
         }
 
-        public function catch($pokemon_caught)
+        public function use($pokemon_caught)
         {
             $rand = rand(0, 100) / 100;
             $chance_catch = (($pokemon_caught->max_life - $pokemon_caught->current_life) / $pokemon_caught->max_life) * (1+ ($this->level - $pokemon_caught->level) /25);

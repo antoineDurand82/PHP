@@ -1,6 +1,6 @@
 <?php
         
-    abstract class Pokemon 
+    abstract class Pokemon
     {
         public $name;
         public $max_life;

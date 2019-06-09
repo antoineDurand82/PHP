@@ -1,4 +1,5 @@
 <?php include_once ('./html/header.php') ?>
+<?php include_once ('./html/usable.php') ?>
 <?php include_once ('./pokemons/pokemon.php') ?>
 <?php include_once ('./pokemons/carapuce.php') ?>
 <?php include_once ('./pokemons/salameche.php') ?>
