@@ -1,6 +1,6 @@
 <?php
 
-    class Heal implements Usable
+    abstract class Heal implements Usable
     {
         public $name;
         public $level;

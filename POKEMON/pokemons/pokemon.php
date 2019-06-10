@@ -51,9 +51,9 @@
             echo $after_damage;
         }
 
-        public function percent_life()
+        public function percent_life($percent)
         {
-           $percent = ($this->max_life / 100 ) * 20;
+           $percent = ($this->max_life / 100 ) * $percent;
            return $percent;
         } 
 

@@ -7,7 +7,7 @@
         public function __construct ()
         {
             $name = 'Potion';
-            $level = 10;
+            $level = 20;
             $percent = 0;
 
             parent::__construct ($name, $level, $percent);
